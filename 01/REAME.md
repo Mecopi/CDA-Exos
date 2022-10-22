@@ -10,7 +10,7 @@ Write a loop that makes seven calls to console.log to output following triangle<
 
 ```
 pyramide <- ''
-Pour i de 0 jusque 7 avec un pas de 1 :
+Pour i de 1 jusque 7 avec un pas de 1 :
     ajout pyramide '#'
     affichage pyramide
 Fin pour
