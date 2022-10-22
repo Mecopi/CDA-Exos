@@ -12,15 +12,15 @@ When you have that working, modify your program to print "FizzBuzz" for numbers 
 ## Pseudo-code
 
 ```
-pour i < 101 jusqu'a 100 avec un pas de 1
-si i % 5 == 0 et non i % 3 == 0 
-affichage buzz
-sinon si i % 3 == 0 
-affichage fizz
-sinon si i % 5 == 0 et que i % 3 == 0
-affichage fizzbuzz
-sinon
-afficher nombre
+pour i allant 1 a 100 avec un pas de 1
+    si i % 5 == 0 et que i % 3 == 0
+        affichage fizzbuzz
+    sinon si i % 3 == 0 
+        affichage fizz
+    sinon si i % 5 == 0 
+        affichage buzz
+    sinon
+        afficher nombre
 fin pour
 ```
 
