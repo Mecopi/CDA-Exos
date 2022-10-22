@@ -10,14 +10,14 @@ Write a program that creates a string that represents an 8x8 grid, using newline
 
 ```
 chessboard <- ''
-Pour i de 0 jusqu'a 8 avec un pas de 1 :
-    Pour j de 0 jusqu'a 8 avec un pas de 1 : 
-        ajout '# ' -> chessboard
+Pour i de 1 jusqu'a 8 avec un pas de 1 :
+    Pour j de 1 jusqu'a 8 avec un pas de 1 : 
+        ajout chessboard <- '# '
     Fin Pour
     Si i % 2 :
-        ajout '\n ' -> chessboard
+        ajout '\n ' <- chessboard
     sinon :
-        ajout '\n' -> chessboard
+        ajout chessboard <- '\n'
 Fin Pour
 ```
 
